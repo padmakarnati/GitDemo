@@ -21,6 +21,9 @@ public class Calender {
 		js.executeScript("window.scrollBy(0,1000)");
 		driver.findElement(By.cssSelector("input[placeholder='Date of travel']")).click();
 		
+		System.out.println("this is for develp branch in calender1");
+		System.out.println("this is for develp branch in calender2");
+		System.out.println("this is for develp branch in calender3");
 		
 		while(!driver.findElement(By.cssSelector(".flatpickr-calendar.animate.open.arrowBottom .flatpickr-month")).getText().contains("October ")) {
 			driver.findElement(By.cssSelector(".flatpickr-month .flatpickr-next-month")).click();
