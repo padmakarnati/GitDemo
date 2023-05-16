@@ -22,6 +22,8 @@ public class Dynamiccheckbox {
 	    System.out.println("this is change in dynamic checkbox2");
 	    System.out.println("this is change in dynamic checkbox3");
 	    System.out.println("this is change in dynamic checkbox4");
+	    
+	    System.out.println("this is change in dynamic checkbox1");
 
 	    WebElement checkbox=driver.findElement(By.xpath("//input[@id='isageselected']"));
 		/*
