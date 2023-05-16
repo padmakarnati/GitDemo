@@ -20,6 +20,10 @@ public class AutoSuggestive {
 		 driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		 driver.findElement(By.id("autosuggest")).sendKeys("ind");
 		 List<WebElement> elements=driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
+		 System.out.println("for Testing purpose");
+		 System.out.println("for Testing purpose2");
+		 System.out.println("for Testing purpose3");
+		 
 		 
 		 for(WebElement option:elements)
 		 {
